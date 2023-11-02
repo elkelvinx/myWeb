@@ -1,5 +1,8 @@
 Negros de Mierda se reproducen como la mierda
 este es un archivo que se pasara por las fases de:
 stage
-commit y 
+    s
+commit
+    en el commit se guardan los cambios a otra fase
 server 
+    se suben al servidor todos los cambios o nuevos archivos

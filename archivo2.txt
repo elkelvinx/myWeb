@@ -1,6 +1,18 @@
 este archivo es uno feo
 para poder estar trabajando con estos se necesitan unos
 comandos especiales por ejemplo:
+*******COMANDOS BASICOS*******
+ls -a: este muestra todo el contenido de un directorio
+code .:comando que permite abrir el directorio en un editor de 
+    codigo o texto en este caso VSCODE
+    
+*******Fases*******
+    1. computadora
+    2. stage
+    3. commit
+    4. server
+
+*******Git Comands*******
 git init: comenzar un archivo de git con sus respectivos archivos y 
     carpetas para poder ver que cambios se hicieron y poder devolver
     entre estas.
@@ -9,10 +21,11 @@ git add: agregar los archivos a stage
     esto se hace si los archivos estan modificados o si queremos
     agregarlos, pero se guardan en stage las modificaciones
     no los archivos en si
-ls -a: este muestra todo el contenido de un directorio
-code .:comando que permite abrir el directorio en un editor de 
-    codigo o texto en este caso VSCODE
+git commit -m "mensaje con sentido": esto es para poder comprometer o
+    commit el trabajando, los cambios seran comprometidos
+    de este modo ya no estaran los archivos en la face de 
 
-GIT BASH
+
+*******GIT BASH*******
 nano .<archivo>: en este caso es para modificar un archivo de texto
 nano .bashsrc: archivo que tiene el estilo de el git bash
