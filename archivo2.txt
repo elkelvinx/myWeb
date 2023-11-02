@@ -1,0 +1,18 @@
+este archivo es uno feo
+para poder estar trabajando con estos se necesitan unos
+comandos especiales por ejemplo:
+git init: comenzar un archivo de git con sus respectivos archivos y 
+    carpetas para poder ver que cambios se hicieron y poder devolver
+    entre estas.
+git status: que archivos no estan o falta actualizarlos
+git add: agregar los archivos a stage
+    esto se hace si los archivos estan modificados o si queremos
+    agregarlos, pero se guardan en stage las modificaciones
+    no los archivos en si
+ls -a: este muestra todo el contenido de un directorio
+code .:comando que permite abrir el directorio en un editor de 
+    codigo o texto en este caso VSCODE
+
+GIT BASH
+nano .<archivo>: en este caso es para modificar un archivo de texto
+nano .bashsrc: archivo que tiene el estilo de el git bash
