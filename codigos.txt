@@ -47,6 +47,10 @@ git diff: muestra todos los cambios que hariamos o que estamos por hacer
     por ejemplo si borraste una linea o diste un salto de linea
 git diff --staged: muestra lo mismo que el anterior pero este es
     para la etapa de stage.
+git log:se usa para poder ver los cambios que hemos echos en este 
+    caso todos los commit
+git log --oneline: ahora resume mucho mas la informacion de los 
+    commit echos para que sea mas digerible
 
 *******TIPOS DE ARCHIVOS*******
 .env= por si queremos guardar contrasenas o algun dato confidencial que solo
