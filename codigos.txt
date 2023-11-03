@@ -43,6 +43,10 @@ git rm <archivo>: es lo mismo que el anterior pero nos saltamos la
     "git restore --stage <archivo>" y asi se unstage
 git restore <archivo>: de este modo los cambios echos al archivo se pueden
     recuperar, en este caso de el stage a la computadora
+git diff: muestra todos los cambios que hariamos o que estamos por hacer
+    por ejemplo si borraste una linea o diste un salto de linea
+git diff --staged: muestra lo mismo que el anterior pero este es
+    para la etapa de stage.
 
 *******TIPOS DE ARCHIVOS*******
 .env= por si queremos guardar contrasenas o algun dato confidencial que solo
