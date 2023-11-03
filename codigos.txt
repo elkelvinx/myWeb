@@ -51,6 +51,7 @@ git log:se usa para poder ver los cambios que hemos echos en este
     caso todos los commit
 git log --oneline: ahora resume mucho mas la informacion de los 
     commit echos para que sea mas digerible
+*******RAMAS Y SU MANEJO*******
 git branch: es para saber si estamos en main o en que rama trabajamos
 git checkout -b <nombre rama>: es para poder crear una rama separada
     al main y poder tener otro marco de trabajo, sin afectar a main
@@ -58,6 +59,19 @@ git checkout -b <nombre rama>: es para poder crear una rama separada
 git ckeckout <nombre rama>: con esto nosotros nos cambiamos de rama
     NO SE CREA UNA
 cat <archivo>: ver el contenido de el archivo en la consola
+git merge <nombre rama secundaria>: estando en la rama master o main
+    podemos juntar ramas secundarias para asi guardar los cambios
+    de esta en la principal
+
+*******Subir a GITHUB*******
+luego de crear el repositorio agregamos el codigo que tenga la URL
+    git remote add origin https://github.com/elkelvinx/myWeb.git
+luego lo ponemos en la consola, por ultimo ponemos este codigo
+    git push -u origin master
+git push: es el comando que sube los cambios respecto a la rama en la 
+    estamos trabajando, pero Master no existe en GITHUB, por eso usamos
+    "-u" para crear la rama
+
 *******TIPOS DE ARCHIVOS*******
 .env= por si queremos guardar contrasenas o algun dato confidencial que solo
     queremos en nuestra pc y no en el commit
