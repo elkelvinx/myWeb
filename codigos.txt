@@ -71,6 +71,11 @@ luego lo ponemos en la consola, por ultimo ponemos este codigo
 git push: es el comando que sube los cambios respecto a la rama en la 
     estamos trabajando, pero Master no existe en GITHUB, por eso usamos
     "-u" para crear la rama
+*******Agregando RAMA A GITHUB*******
+se crea una nueva rama en mi computadora con 
+ ➜  git checkout -b RAMAC
+se agrega a el repositorio en linea
+ ➜  git push -u origin ramaC
 
 *******TIPOS DE ARCHIVOS*******
 .env= por si queremos guardar contrasenas o algun dato confidencial que solo
