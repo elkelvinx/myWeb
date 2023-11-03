@@ -55,7 +55,9 @@ git branch: es para saber si estamos en main o en que rama trabajamos
 git checkout -b <nombre rama>: es para poder crear una rama separada
     al main y poder tener otro marco de trabajo, sin afectar a main
     en caso de fallar
-
+git ckeckout <nombre rama>: con esto nosotros nos cambiamos de rama
+    NO SE CREA UNA
+cat <archivo>: ver el contenido de el archivo en la consola
 *******TIPOS DE ARCHIVOS*******
 .env= por si queremos guardar contrasenas o algun dato confidencial que solo
     queremos en nuestra pc y no en el commit
