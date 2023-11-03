@@ -5,18 +5,27 @@ comandos especiales por ejemplo:
 ls -a: este muestra todo el contenido de un directorio
 code .:comando que permite abrir el directorio en un editor de 
     codigo o texto en este caso VSCODE
+mv <origen> <destino>: es para poder mover archivos, pero en este caso 
+    tambien se puede usar para cambiar el nombre de archivos
+git mv <origen> <destino>: es para poder mover archivos o cambiar
+    nombres, pero brincandonos el stage
     
 *******Fases*******
     1. computadora
-    2. stage
-    3. commit
-    4. server
+    2. stage: aqui todos los cambios se guardaran luego de darle con comandos
+	se puede saltar con algunos comandos, llendo al siguiente directamente
+	pero es un poco inseguro
+    3. commit: aqui tambien tenemos cambios echos a los archivos pero para 
+ 	este punto ya se verifico, todavia se puede hacer rollback 
+    4. server:
 
 *******Git Comands*******
 git init: comenzar un archivo de git con sus respectivos archivos y 
     carpetas para poder ver que cambios se hicieron y poder devolver
     entre estas.
 git status: que archivos no estan o falta actualizarlos
+git status -s: con esto vemos menos datos, pero solo los necesarios 
+    para saber los cambios a agregar o borrar
 git add: agregar los archivos a stage
     esto se hace si los archivos estan modificados o si queremos
     agregarlos, pero se guardan en stage las modificaciones
@@ -24,7 +33,22 @@ git add: agregar los archivos a stage
 git commit -m "mensaje con sentido": esto es para poder comprometer o
     commit el trabajando, los cambios seran comprometidos
     de este modo ya no estaran los archivos en la face de 
+rm <archivo>: esto es para poder borrar el archivo, pero ese cambio
+    se pasara a el stage por lo tanto tenemos que agregar el cambio
+    pero si el archivo ya estaba en COMMIT es necesario ejecutar 
+    un comando COMMIT para poder guardar esos cambios
+git rm <archivo>: es lo mismo que el anterior pero nos saltamos la
+    fase de stage, directo al commit
+    si se necesita restaurar el stage solo es necesario usar el 
+    "git restore --stage <archivo>" y asi se unstage
+git restore <archivo>: de este modo los cambios echos al archivo se pueden
+    recuperar, en este caso de el stage a la computadora
 
+*******TIPOS DE ARCHIVOS*******
+.env= por si queremos guardar contrasenas o algun dato confidencial que solo
+    queremos en nuestra pc y no en el commit
+.gitignore= para evitar subir archivos por error al commit, por ejemplo
+    el .env que tiene contrasenas o datos delicados
 
 *******GIT BASH*******
 nano .<archivo>: en este caso es para modificar un archivo de texto
