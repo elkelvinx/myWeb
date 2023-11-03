@@ -51,6 +51,10 @@ git log:se usa para poder ver los cambios que hemos echos en este
     caso todos los commit
 git log --oneline: ahora resume mucho mas la informacion de los 
     commit echos para que sea mas digerible
+git branch: es para saber si estamos en main o en que rama trabajamos
+git checkout -b <nombre rama>: es para poder crear una rama separada
+    al main y poder tener otro marco de trabajo, sin afectar a main
+    en caso de fallar
 
 *******TIPOS DE ARCHIVOS*******
 .env= por si queremos guardar contrasenas o algun dato confidencial que solo
@@ -61,3 +65,6 @@ git log --oneline: ahora resume mucho mas la informacion de los
 *******GIT BASH*******
 nano .<archivo>: en este caso es para modificar un archivo de texto
 nano .bashsrc: archivo que tiene el estilo de el git bash
+
+
+NEGROS
